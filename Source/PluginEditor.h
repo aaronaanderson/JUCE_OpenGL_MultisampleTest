@@ -19,7 +19,7 @@ public:
         glContext.setRenderer (this);       
     
         juce::OpenGLPixelFormat pf;
-        pf.multisamplingLevel = 128;
+        pf.multisamplingLevel = 4;
         glContext.setPixelFormat (pf);
         glContext.setMultisamplingEnabled (true);
         glContext.setComponentPaintingEnabled(false);
